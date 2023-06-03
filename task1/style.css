@@ -1,5 +1,5 @@
 .header {
-    flex: 0 0 content;
+    flex: 0 0 auto;
     box-sizing: border-box;
     padding: 2vh;
     text-align: center;
@@ -14,7 +14,7 @@
 
 body {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -43,9 +43,10 @@ body {
     align-content: space-around;
     background-color: rgb(243, 241, 219)
 }
+
 .footer_1 {
-padding: 3vw;
-background-color: rgb(255, 255, 255)
+    padding: 3vw;
+    background-color: rgb(255, 255, 255)
 }
 
 .flexp {
@@ -54,16 +55,15 @@ background-color: rgb(255, 255, 255)
     margin-top: 40vw;
     text-align: center;
     background-color: rgb(255, 223, 109)
-    }
+}
 
 .flexp_3 {
     height: 100px;
     width: 70vw;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     margin: 2vw;
     background-color: rgb(255, 223, 109)
-
 }
 
 .main_p {
